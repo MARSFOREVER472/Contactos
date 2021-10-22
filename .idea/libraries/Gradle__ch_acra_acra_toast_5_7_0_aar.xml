@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: ch.acra:acra-toast:5.7.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d0f53e8d677e878567628f64d779971a/transformed/jetified-acra-toast-5.7.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d0f53e8d677e878567628f64d779971a/transformed/jetified-acra-toast-5.7.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d0f53e8d677e878567628f64d779971a/transformed/jetified-acra-toast-5.7.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.acra/acra-toast/5.7.0/759fd210da37f8db8ebe0218fe23ec47395656d0/acra-toast-5.7.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.acra/acra-toast/5.7.0/e6d313bb712bd9da59215c99b350f3d1cf651938/acra-toast-5.7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
