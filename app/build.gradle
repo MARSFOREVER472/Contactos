@@ -16,14 +16,33 @@ android {
     }
 
     buildTypes {
-        release {
+        debug{
+            debuggable true
             minifyEnabled false
+            shrinkResources false
+            zipAlignEnable false
+            crunchPngs false
+            versionNameSuffix ".d"
+        }
+        release {
+            debuggable false
+            minifyEnabled true
+            shrinkResources true
+            zipAlignEnable true
+            crunchPngs true
+            versionNameSuffix ".r"
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
+    }
+    android.applicationVariants.all{variant ->
+        variant.outputs.each{output ->
+            output.versionCodeOverride = project.ext.buildTimeStamp
+            output.versionNameOverride = project.ext.buildVersion
+        }
     }
 }
 
