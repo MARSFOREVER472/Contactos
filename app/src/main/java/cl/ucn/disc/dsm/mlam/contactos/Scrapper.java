@@ -30,6 +30,7 @@ public class Scrapper {
             Contacto contacto = getContactoFromUrl(id);
             if (contacto != null){
                 this.contactos.add(contacto);
+                log.debug(contacto.toString());
             }
             Random random = new Random();
             int delay = 1000 + random.nextInt(500);
