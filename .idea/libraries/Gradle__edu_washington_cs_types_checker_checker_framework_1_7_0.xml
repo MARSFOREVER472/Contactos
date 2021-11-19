@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: edu.washington.cs.types.checker:checker-framework:1.7.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.washington.cs.types.checker/checker-framework/1.7.0/f652eb570f82dea2f7718c23f81b759c0c8e5ccf/checker-framework-1.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.washington.cs.types.checker/checker-framework/1.7.0/5da81affd29f6c7826e4ae557f0ac8bbae69f8f8/checker-framework-1.7.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.washington.cs.types.checker/checker-framework/1.7.0/7bc7c1a3cf89d60550df26c66b79ef16c5f81e8/checker-framework-1.7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
